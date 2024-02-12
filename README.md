@@ -93,6 +93,62 @@ To improve the accuracy of our predictions, we incorporate rolling means of rele
 #### Stay tuned for updates as we continue to develop our weather prediction model!
 
 
+## DAY3 : Olympics medal Prediction 
+
+This project aims to predict the number of medals each country will win in a sports event using machine learning techniques.
+
+### Table of Contents
+
+- [Introduction](#introduction)
+- [Steps Taken](#steps-taken)
+  - [Loading the Data](#loading-the-data)
+  - [Data Exploration](#data-exploration)
+  - [Analyzing Data](#analyzing-data)
+  - [Building the Model](#building-the-model)
+  - [Measuring Error](#measuring-error)
+  - [Checking Model Performance](#checking-model-performance)
+- [Next Steps](#next-steps)
+
+### Introduction
+
+In this project, we use machine learning algorithms to predict the number of medals each country is likely to win.
+
+### Steps Taken
+
+#### Loading the Data
+
+We sourced the data from [kaggle.com] which includes historical data on countries' performance. The dataset contains information such as country, year, sport, and medal count.
+
+#### Data Exploration
+
+We performed exploratory data analysis to understand the structure of the dataset and identify any patterns or trends. This involved summary statistics, data visualization, and identifying any missing or inconsistent data.
+
+#### Analyzing Data
+
+Based on the exploratory analysis, we identified key features that may influence a country's medal count, such as athlete, age, past performance. We also performed feature engineering to extract meaningful information from the raw data.
+
+#### Building the Model
+
+We experimented with various machine learning algorithms, including linear regression to build our prediction model.
+
+#### Measuring Error
+
+These metrics help quantify the difference between predicted and actual medal counts.
+
+#### Checking Model Performance
+
+We assessed the performance of our model using techniques such as train-test splits and k-fold cross-validation to ensure its generalizability to unseen data. We also compared our model's predictions against baseline models and evaluated its robustness to different scenarios.
+
+### Next Steps
+
+- Refine feature selection and engineering to improve model performance.
+- Explore advanced machine learning techniques such as ensemble methods and neural networks.
+- Incorporate external factors such as geopolitical events and athlete injuries into the prediction model.
+- Deploy the model into production for real-time predictions during sports events.
+- Continuously monitor and update the model to adapt to changing circumstances and improve accuracy.
+
+Feel free to contribute or provide feedback on this project!
+
 
 
 ## Author
