@@ -36,6 +36,65 @@ To enhance comprehension of model predictions, visualization techniques will be 
 
 In conclusion, by following this comprehensive data analysis approach, we aim to develop reliable solubility prediction models using molecular descriptors, enabling informed decision-making in chemical research and development. Modules like Pandas, Scikit-learn, and Matplotlib will be instrumental throughout this project.
 
+
+## DAY2 : Weather Prediction Data Science Project
+
+Welcome to our Weather Prediction Data Science Project! In this project, we aim to predict weather conditions using machine learning techniques.
+
+### Table of Contents
+- [Data Loading](#data-loading)
+- [Preparing Data for Machine Learning](#preparing-data-for-machine-learning)
+- [Filling in Missing Values](#filling-in-missing-values)
+- [Verifying Correct Data Types](#verifying-correct-data-types)
+- [Analyzing Data](#analyzing-data)
+- [Training Machine Learning Model](#training-machine-learning-model)
+- [Evaluating Our Model](#evaluating-our-model)
+- [Creating Prediction Function](#creating-prediction-function)
+- [Adding in Rolling Means](#adding-in-rolling-means)
+
+### Data Loading
+We start by loading the weather dataset into our environment. Ensure you have the necessary libraries installed to manipulate data.
+
+import pandas as pd
+
+#### Load the weather dataset
+
+weather_data = pd.read_csv("weather_data.csv")
+
+### Preparing Data for Machine Learning
+
+Next, we preprocess the data to make it suitable for machine learning algorithms. This involves handling missing values, encoding categorical variables, and scaling numerical features.
+
+**Filling in Missing Values**
+
+Missing values in the dataset can impact model performance. We handle missing data by imputing values using appropriate techniques such as mean, median, or interpolation.
+
+**Verifying Correct Data Types**
+
+Ensuring that data types are appropriate is crucial for accurate modeling. We verify and convert data types as needed to ensure consistency and accuracy.
+
+### Analyzing Data
+Understanding the data is essential for making informed decisions during model building. We explore various statistical summaries and visualizations to gain insights into the dataset.
+
+### Training Machine Learning Model
+We use Ridge regression, a linear regression algorithm regularized with L2 regularization, to train our weather prediction model. We set the regularization parameter alpha to 0.1.
+
+### Evaluating Model
+To assess the performance of our model, we evaluate it using appropriate evaluation metrics such as mean squared error, R-squared, or others depending on the nature of the problem.
+
+**Creating Prediction Function**
+
+Once the model is trained and evaluated, we create a function to make predictions on new data. This function takes input features and returns the predicted weather conditions.
+
+**Adding in Rolling Means**
+
+To improve the accuracy of our predictions, we incorporate rolling means of relevant features. This helps capture trends and seasonality in the data.
+
+#### Stay tuned for updates as we continue to develop our weather prediction model!
+
+
+
+
 ## Author
 
 This project is maintained by Sujal Rajput.
