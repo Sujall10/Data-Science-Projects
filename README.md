@@ -103,7 +103,7 @@ This project aims to predict the number of medals each country will win in a spo
 - [Steps Taken](#steps-taken)
   - [Loading the Data](#loading-the-data)
   - [Data Exploration](#data-exploration)
-  - [Analyzing Data](#analyzing-data)
+  - [Analyzing Data](#analyzing-the-data)
   - [Building the Model](#building-the-model)
   - [Measuring Error](#measuring-error)
   - [Checking Model Performance](#checking-model-performance)
@@ -123,7 +123,7 @@ We sourced the data from [kaggle.com] which includes historical data on countrie
 
 We performed exploratory data analysis to understand the structure of the dataset and identify any patterns or trends. This involved summary statistics, data visualization, and identifying any missing or inconsistent data.
 
-#### Analyzing Data
+#### Analyzing the Data
 
 Based on the exploratory analysis, we identified key features that may influence a country's medal count, such as athlete, age, past performance. We also performed feature engineering to extract meaningful information from the raw data.
 
