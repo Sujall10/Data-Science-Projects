@@ -48,7 +48,7 @@ Welcome to our Weather Prediction Data Science Project! In this project, we aim 
 - [Verifying Correct Data Types](#verifying-correct-data-types)
 - [Analyzing Data](#analyzing-data)
 - [Training Machine Learning Model](#training-machine-learning-model)
-- [Evaluating Our Model](#evaluating-our-model)
+- [Evaluating Model](#evaluating-model)
 - [Creating Prediction Function](#creating-prediction-function)
 - [Adding in Rolling Means](#adding-in-rolling-means)
 
