@@ -65,11 +65,11 @@ weather_data = pd.read_csv("weather_data.csv")
 
 Next, we preprocess the data to make it suitable for machine learning algorithms. This involves handling missing values, encoding categorical variables, and scaling numerical features.
 
-**Filling in Missing Values**
+#### Filling in Missing Values
 
 Missing values in the dataset can impact model performance. We handle missing data by imputing values using appropriate techniques such as mean, median, or interpolation.
 
-**Verifying Correct Data Types**
+#### Verifying Correct Data Types
 
 Ensuring that data types are appropriate is crucial for accurate modeling. We verify and convert data types as needed to ensure consistency and accuracy.
 
@@ -82,11 +82,11 @@ We use Ridge regression, a linear regression algorithm regularized with L2 regul
 ### Evaluating Model
 To assess the performance of our model, we evaluate it using appropriate evaluation metrics such as mean squared error, R-squared, or others depending on the nature of the problem.
 
-**Creating Prediction Function**
+#### Creating Prediction Function
 
 Once the model is trained and evaluated, we create a function to make predictions on new data. This function takes input features and returns the predicted weather conditions.
 
-**Adding in Rolling Means**
+#### Adding in Rolling Means
 
 To improve the accuracy of our predictions, we incorporate rolling means of relevant features. This helps capture trends and seasonality in the data.
 
